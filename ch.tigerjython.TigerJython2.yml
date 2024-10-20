@@ -40,5 +40,5 @@ modules:
 
     sources:
       - type: archive
-        url: https://git.jdmweb2.ch/beat/tigerjython_pkg/archive/v2.40.tar.gz
-        sha256: 86ac7a1b56b2ab8cf02be3591bc25666cdbf01d2314df0e9227f1e5e6bba1d64
+        url: https://git.jdmweb2.ch/beat/tigerjython_pkg/archive/ffaf7a6a59.tar.gz
+        sha256: 8c0a1ff7cb4e12e6cbddb37a3a5efb83b7db634485405c1f5a86dc794a15f294

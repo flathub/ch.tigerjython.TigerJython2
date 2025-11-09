@@ -1,9 +1,9 @@
 id: ch.tigerjython.TigerJython2
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk
+  - org.freedesktop.Sdk.Extension.openjdk21
 finish-args:
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   # X11 + XShm access
@@ -22,7 +22,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
   - name: tigerjython2
     buildsystem: simple
     build-commands:
@@ -40,5 +40,5 @@ modules:
 
     sources:
       - type: archive
-        url: https://git.jdmweb2.ch/beat/tigerjython_pkg/archive/ffaf7a6a59.tar.gz
-        sha256: 8c0a1ff7cb4e12e6cbddb37a3a5efb83b7db634485405c1f5a86dc794a15f294
+        url: https://git.jdmweb2.ch/beat/tigerjython_pkg/archive/2ce28148e6.tar.gz
+        sha256: dde7122ffb0077a19e234225b76fa380fe0ab2f99fec6fc34eb95907dcf2cbf7

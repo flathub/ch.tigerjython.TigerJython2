@@ -19,10 +19,10 @@ finish-args:
   - --filesystem=xdg-documents
 command: tigerjython
 modules:
-  - name: openjdk21
+  - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
   - name: tigerjython2
     buildsystem: simple
     build-commands:
